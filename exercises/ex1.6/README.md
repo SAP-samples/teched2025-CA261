@@ -45,7 +45,7 @@
        ```
      - AI Core Client Secret:
        ```
-      (placeholder)
+        (placeholder)
        ```
      - AI Core Base URL:
        ```
@@ -53,7 +53,7 @@
        ```
      - AI Core Auth URL:
        ```
-      (placeholder)
+       (placeholder)
        ```
      - AI Core Resource Group:
        ```
