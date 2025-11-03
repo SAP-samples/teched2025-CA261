@@ -180,7 +180,7 @@ These credentials are stored locally and only used to make API requests from the
 
 6. Verify MCP servers are installed and enabled.
 
-   <img src="./images/cline-mcp-server.png" alt="Cline MCP server" width="50%"/>
+   ![Cline mcp server](./images/cline-mcp-server.png)
 
 7. Click on Done
 
@@ -188,7 +188,7 @@ These credentials are stored locally and only used to make API requests from the
 
 1. Click the `Manage cline rules and workflows` button.
 
-   <img src="./images/cline-add-rules.png" alt="Cline add rules" width="50%"/>
+   ![Cline add rules](./images/cline-add-rules.png)
 
 2. To add a global rule, enter a rule name `fioriRules` and click the + icon as shown in screenshot above.
 3. File `fioriRules.md` is opened in the editor panel.
