@@ -1,10 +1,23 @@
 ## Enable your MCP Server in Figma
 
-**Check the following step to enable your MCP server in the Figma Desktop client:**
+**Follow these steps to activate the MCP server in your Figma Desktop application:**
 
-* From the menu bar, go to **_Figma_** → **_Preferences_** → **_Enable desktop MCP Server_**. Make sure it is checked.
+1. **Activate Developer Mode**
+   - Toggle to `Dev Mode` in Figma Desktop
 
-![Figma](./images/exc1-5-1.png)
+   ![Figma](./images/enablemcpserver.png)
+
+2. **Enable MCP Server**
+   - Locate the properties panel on the right side
+   - Click the `Enable desktop MCP server` option
+
+![Figma](./images/propertiespanel.png)
+
+![Figma](./images/mcpdesktopenabled.png)
+
+3. **Return to Design View**
+   - Switch back to `Design Mode` to continue working with your designs
+
 
 * Keep Figma Desktop client running in the background.
 
