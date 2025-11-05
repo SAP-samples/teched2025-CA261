@@ -10,13 +10,13 @@
    Include technical key and business key for all entities.
    Use MCP servers and follow all rules.
 
-   <Copy and Paste Figma link for Screen 1 - List Report here> 
+   <Copy and Paste Figma screenshot(png) for Screen 1 - List Report here> 
    ```
 
-3. Open Figma, right-click on "Screen 1 - List Report" -> Copy/Paste as -> Copy link to selection
+3. Open Figma, right-click on "Screen 1 - List Report" -> Copy/Paste as -> Copy as PNG
 
 > [!NOTE]
-> Refer to [ex 1.4 Export your designs](../ex1.4/README.md#export-your-designs) to copy Figma link for list report.
+> Refer to [ex 1.4 Export your designs](../ex1.4/README.md#export-your-designs) to copy Figma PNG for list report.
 
 <img src="./images/task.png" alt="cline task" width="70%"/>
 
@@ -72,9 +72,13 @@
    - Before saving the generated data model to your project, Cline will ask you to review and confirm the content. Click **Save** to proceed. 
 
    > [!Note]
-   > Enabel `Edit` to auto-approve future save requests.
+   > Enable `Edit` to auto-approve future save requests.
 
     ![edit file setting](./images/edit-file-setting.png)
+
+    In the latest version of Cline, the Edit option has been moved to the Auto-approve actions section. Activate both `Edit project files` and `Edit all files` to auto-approve future save requests.
+
+    ![edit file autoapprove](./images/edit-file-autoapprove.png)
 
    - Cline then creates sample data files (in .csv format) for your project automatically.
 

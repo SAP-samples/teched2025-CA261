@@ -14,7 +14,7 @@ Now you have to copy the links to each one of the frames. Let's take as example 
 
 * Hover over **_Copy/Paste as_**
 
-* Click on **_Copy link to selection_**.
+* Click on **_Copy as PNG_**.
 
 ![Figma](./images/exc1-4-2.png)
 

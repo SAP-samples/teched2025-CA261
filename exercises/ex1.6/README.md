@@ -112,7 +112,7 @@ These credentials are stored locally and only used to make API requests from the
    Execute
 
    ```bash
-   npm install -g @sap-ux/fiori-mcp-server@latest
+   npm install -g @sap-ux/fiori-mcp-server@0.2.5
    ```
 
    - Install the **CAP MCP Server**:
@@ -227,8 +227,12 @@ These credentials are stored locally and only used to make API requests from the
 9. File `figmaRules.md` is opened in editor panel.
 10. Copy and paste following rule 
 ```
-- You must use the Figma MCP server if available, and use only `get_screenshot` tool.
-- You must not use `get_design_context` tool.
+## Rules for Figma MCP Server
+
+- You MUST ALWAYS use the Figma MCP server when working with Figma files or designs
+- You MUST ONLY use the `get_screenshot` tool from the Figma MCP server
+- You MUST NOT use the `get_design_context` tool under ANY circumstances
+- You are STRICTLY FORBIDDEN from using any other Figma MCP tools
 ```
 
 8. Save all the `.md` files and make sure the rules are enabled as shown below.

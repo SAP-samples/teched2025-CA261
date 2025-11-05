@@ -1,14 +1,14 @@
 ## Create Booking Object Page Based on Figma Design
 
 1. In the Cline panel, _**close the previous task**_ and start a new one. Select **Plan Mode**.
-2. Open Figma, right-click on "Screen 3 - Object Page" -> Copy/Paste as -> Copy link to selection
+2. Open Figma, right-click on "Screen 3 - Object Page" -> Copy/Paste as -> Copy as PNG
 3. Enter the following prompt in the task input:  
    ```
    Create booking object page based on Figma design:
-   <Copy and Paste Figma link for Screen 3 - Object Page here>
+   <Copy and Paste Figma screenshot(png) for Screen 3 - Object Page here>
    ```
    > [!NOTE]
-   > Refer to [ex 1.4 Export your designs](../ex1.4/README.md#export-your-designs) to copy Figma link for `Screen 3 - Object Page`.
+   > Refer to [ex 1.4 Export your designs](../ex1.4/README.md#export-your-designs) to copy Figma screenshot(png) for `Screen 3 - Object Page`.
 
 4. Press `Enter` to start the task.
 5. Cline will generate an **Implementation Plan**.

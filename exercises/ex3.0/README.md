@@ -1,17 +1,17 @@
 ## Modify Travel Object Page Based on Figma Design
 
 1. In the Cline panel, **_close the previous task_** and start a new one. Select **Plan Mode**.
-2. Open Figma, right-click on "Screen 2 - Object Page" -> Copy/Paste as -> Copy link to selection
+2. Open Figma, right-click on "Screen 2 - Object Page" -> Copy/Paste as -> Copy as PNG
 3. Enter the following prompt in the task input:  
    ```
    Modify the travels object page based on the Figma design.
    The object page should include a bookings table section.
    Add mock data for the bookings table.
-   <Copy and Paste Figma link for Screen 2 - Object Page here>
+   <Copy and Paste Figma screenshot(png) for Screen 2 - Object Page here>
    ```
 
    > [!NOTE]
-   > Refer to [ex 1.4 Export your designs](../ex1.4/README.md#export-your-designs) to copy Figma link for `Screen 2 - Object Page`.
+   > Refer to [ex 1.4 Export your designs](../ex1.4/README.md#export-your-designs) to copy Figma PNG for `Screen 2 - Object Page`.
 
    ![travel object page task](./images/travel-objpage-task.png)
 
