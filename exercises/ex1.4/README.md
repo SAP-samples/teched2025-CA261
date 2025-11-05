@@ -2,7 +2,7 @@
 
 **Check the following steps to export your frames:**  
    
-Now you have to copy the links to each one of the frames. Let's take as example the List Report.
+Now you have to copy the screenshot as PNG to each one of the frames. Let's take as example the List Report.
 
 * Select the **_Screen 1 - List Report_** from the left side panel.
 
