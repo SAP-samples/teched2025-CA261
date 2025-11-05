@@ -4,10 +4,8 @@
 2. Copy and paste the following prompt into the task input:  
    ```
    Apply business logic to action accept travel. 
-   If travel request is already accepted or denied travels, prevent with clear messages. 
-   Dates must be validated so that start dates are not in the past, end dates are always after the start date. 
-   Travel duration must not exceed 90 days.
-   Ensure travel status column remains visible on smaller screens.
+   Dates must be validated so that start dates are not in the past.
+   use cap mcp
    ```
 3. Press `Enter` to execute the task.
 4. Cline prepares an **Implementation Plan**.
@@ -31,6 +29,8 @@
 
 ## TroubleShoot
 
-1. If clicking the `Accept Travel` action does not work. Enter prompt `accept travel action does not work verify business logic`
+1. Make sure Cds mcp server is connected. Close and retry task.
+
+2. If clicking the `Accept Travel` action does not work. Enter prompt `accept travel action does not work verify business logic`
 
 Continue to - [Exercise 2.4 - Configure filter travel status as valuehelp and display it as dropdown](../ex2.4/README.md)

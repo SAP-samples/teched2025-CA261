@@ -28,8 +28,17 @@
 - Does not appear as dropdown. execute prompt `travel status filter is not a dropdown`
 
 - If travel status dropdown contains UUID. You can remove it by executing prompt
-  `Use code instead of UUID for travel status dropdown`.
+  `Configure UUID/GUID as External ID in travel status dropdown. use fiori mcp`.
    When the task is complete. Verify travel status filter without UUID.
+
+For example:
+```
+annotate service.Travels with {
+    to_Status @(
+        Common.ExternalID : to_Status.Name
+    )
+};
+```
 
 Continue to - [Exercise 2.5 - Apply criticality to travel status column](../ex2.5/README.md)
 
