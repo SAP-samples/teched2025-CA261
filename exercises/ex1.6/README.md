@@ -41,19 +41,19 @@
    - Enter the following authentication details:
      - AI Core Client ID:
        ```
-       (placeholder)
+       sb-d62d59c6-496c-4fea-a721-f265e0f43eb5!b96301|xsuaa_std!b77089
        ```
      - AI Core Client Secret:
        ```
-        (placeholder)
+       65e0807b-ef57-46a8-8ad6-1753b5eb0718$fiD_mAvZXeVry1NtXHdq1NZAfpWFPQi-En-4g_ubYe0=
        ```
      - AI Core Base URL:
        ```
-       (placeholder)
+       https://api.ai.internalprod.eu-central-1.aws.ml.hana.ondemand.com
        ```
      - AI Core Auth URL:
        ```
-       (placeholder)
+       https://fiori-tools-ai.authentication.sap.hana.ondemand.com
        ```
      - AI Core Resource Group:
        ```
