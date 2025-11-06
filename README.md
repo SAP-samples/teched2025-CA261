@@ -71,6 +71,6 @@ Begin your exercises here. At the end of each section, there is a link to contin
   - [Exercise 3.4 Set Criticality for status field](./exercises/ex3.4/)
   - [Exercise 3.5 Add Custom Section with RichTextEditor Building Block](./exercises/ex3.5/)
 
-- [Exercise 4 - Create booking object page based on figma design](./exercises/ex4.0/)
+- [Exercise 4 - Create booking object page based on figma design](./exercises/ex4/)
 
-- [Exercise 5 - Add Analytical chart to list report page](./exercises/ex5.0/)
+- [Exercise 5 - Add Analytical chart to list report page](./exercises/ex5/)
