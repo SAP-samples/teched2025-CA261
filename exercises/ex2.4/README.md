@@ -29,7 +29,7 @@
 
 - If travel status dropdown contains UUID. You can remove it by executing prompt
   `Configure UUID/GUID as External ID in travel status dropdown. use fiori mcp`.
-   When the task is complete. Verify travel status filter without UUID.
+   When the task is complete. Verify  Common.ExternalID annotation is applied on travel status to hide UUID.
 
 For example:
 ```
