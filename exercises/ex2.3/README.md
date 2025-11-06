@@ -31,6 +31,6 @@
 
 1. Make sure Cds mcp server is connected. Close and retry task.
 
-2. If clicking the `Accept Travel` action does not work. Enter prompt `accept travel action does not work verify business logic`
+2. If clicking the `Accept Travel` action does not work. Enter prompt `Accept travel action does not work verify business logic`
 
 Continue to - [Exercise 2.4 - Configure filter travel status as valuehelp and display it as dropdown](../ex2.4/README.md)
