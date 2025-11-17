@@ -34,8 +34,7 @@
 8. Close the current task. Start new task. Switch to **Plan mode**.
 9. Enter prompt in the task input:  
    ```
-   In the list report, add an analytical column chart showing the average price per destination.
-   Show analytical chart above table. Use fiori mcp.
+   Add an analytical column chart to the List Report (ALP) that displays the average price per destination. Configure Price as an aggregated property in the analytical chart, and use the Views configuration to display the analytical chart above the table. Use fiori mcp
    ```
 10. Press `Enter` to begin. Cline will generate an **Implementation Plan**.
 

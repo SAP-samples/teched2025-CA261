@@ -32,15 +32,15 @@
 1. No data in rich text editor, Execute prompt `Add mock data for travel notes`
 
 2. Travel notes is not a Rich Text Editor.
-Execute prompt `use "RichTextEditor"`. Verify `RichTextEditor`  in the xml fragment.
+Execute prompt `use "RichTextEditorWithMetadata"`. Verify `RichTextEditorWithMetadata` code in the xml fragment.
 
 ![notrichtext](./images/not-rich-text.png)
 
 for example
 ```
-        <macros:RichTextEditor
+      <macros:RichTextEditorWithMetadata
             id="travelNotesEditor"
-            value="{TravelNotes}"/>
+            metaPath="TravelNotes" />
 ```
 
 3. Cannot edit travel notes RichTextEditor building block. Execute prompt `Travel notes with RichTextEditor is not editable`
