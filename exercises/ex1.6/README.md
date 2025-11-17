@@ -25,14 +25,22 @@
 
 ## Configure Cline
 
-1. **Open the Cline Panel**
+1. **Install Cline extension (version 3.37.1)**
+   - Go to the top menu and select **Terminal > New Terminal**.
+
+   Execute
+   ```
+      code --install-extension saoudrizwan.claude-dev@3.37.1
+   ```
+
+2. **Open the Cline Panel**
 
    - In VS Code, click the **Cline icon** from the left sidebar (Activity Bar).
    - The Cline welcome screen will appear.
 
    <img src="./images/cline-welcome.png" alt="Cline Welcome" width="50%"/>
 
-2. On the welcome screen, select **Bring my own API key** --> Continue.
+   - On the welcome screen, select **Bring my own API key** --> Continue.
 
    <img src="./images/cline-api-provider.png" alt="Cline API Provider" width="70%"/>
 
@@ -97,14 +105,11 @@ These credentials are stored locally and only used to make API requests from the
 
 ## Install and Configure MCP Servers
 
-1. **Open Terminal in VS Code**
-
-   - From the top menu, select **Terminal > New Terminal**.
-   - The terminal will open at the bottom of VS Code.
-
-2. **Install MCP Servers and SAP Fiori Generator**
-
+1. **Install MCP Servers and SAP Fiori Generator**
+   - The terminal is already opened at the bottom of VS Code.
    - Install the **Fiori MCP Server**:
+
+   ![Install MCP Servers](./images/install-mcp.png)
 
    Execute
 
@@ -136,14 +141,14 @@ These credentials are stored locally and only used to make API requests from the
    npm install -g @sap/cds-dk
    ```
 
-3. **Open MCP Server Configuration in Cline**
+2. **Open MCP Server Configuration in Cline**
 
    - In the Cline panel, Click the **MCP Servers** icon in the top-right corner.
    - Click on Configure.
    - Select **Configure MCP Servers**.  
      ![Cline MCP server setting](./images/cline-mcp-server-setting.png)
 
-4. **Update `cline_mcp_settings.json`**
+3. **Update `cline_mcp_settings.json`**
    - Configure MCP servers by editing your Cline MCP settings file (`cline_mcp_settings.json`):
    - Copy below content and Save file.
      ```json
@@ -168,18 +173,34 @@ These credentials are stored locally and only used to make API requests from the
        }
      }
      ```
-5. **Reload Vs code**
+     - close file `cline_mcp_settings.json`.
+
+4. **Reload Vs code**
 
    - On Vscode, go to menu bar and click **View → Command Palette…**
    - Type `Reload Window` and select `Developer: Reload Window`.
 
    <img src="./images/vscode-reload.png" alt="reload vscode" width="50%"/>
 
-6. Verify MCP servers are installed and enabled.
+5. Verify MCP servers are installed and enabled.
 
    ![Cline mcp server](./images/cline-mcp-server.png)
 
-7. Click on Done
+6. Enable Auto-Approval for MCP Tools
+   - Expand each MCP server (fiori-mcp, cds-mcp, and figma-mcp)
+   - Check the `Auto approve all tools` option for each server
+   - This will allow automatic execution without manual confirmation
+
+   <img src="./images/autoapprove-tools.png" alt="reload vscode" width="50%"/>
+
+6. Click on Done
+
+> [!NOTE]
+> Dismiss any notification popups from Cline and VS Code to ensure a clean workspace. This includes extension recommendations, update notifications, and setup prompts.
+
+   for example:
+
+   <img src="./images/cline-notification.png" alt="reload vscode" width="40%"/><img src="./images/vscode-notification.png" alt="reload vscode" width="40%"/>
 
 ## Configure Rules for MCP Servers
 
@@ -209,9 +230,10 @@ These credentials are stored locally and only used to make API requests from the
 - After launching the application stop and wait for user commands
 ```
 
-5. Add another global rule `cdsRules` and click the + icon.
-6. File `cdsRules.md` is opened in editor panel.
-7. Copy and paste following rules.
+5. Save file `fioriRules.md`.
+6. Add another global rule `cdsRules` and click the + icon.
+7. File `cdsRules.md` is opened in editor panel.
+8. Copy and paste following rules.
 
 ```
 - You MUST search for CDS definitions, like entities, fields and services (which include HTTP endpoints) with cds-mcp, only if it fails you MAY read \*.cds files in the project.
@@ -220,9 +242,10 @@ These credentials are stored locally and only used to make API requests from the
 - You MUST NOT use EDM JSON syntax for CDS.
 ```
 
-8. Add another global rule `figmaRules` and click the + icon.
-9. File `figmaRules.md` is opened in editor panel.
-10. Copy and paste following rule 
+9. Save file `cdsRules.md`.
+10. Add another global rule `figmaRules` and click the + icon.
+11. File `figmaRules.md` is opened in editor panel.
+12. Copy and paste following rule 
 ```
 ## Rules for Figma MCP Server
 
@@ -232,7 +255,7 @@ These credentials are stored locally and only used to make API requests from the
 - You are STRICTLY FORBIDDEN from using any other Figma MCP tools
 ```
 
-8. Save all the `.md` files and make sure the rules are enabled as shown below.
+13. Save all the `.md` files and make sure the rules are enabled as shown below.
 
    ![Cline rules](./images/cline-rules.png)
 

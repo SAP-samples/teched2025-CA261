@@ -4,7 +4,7 @@
 2. Enter the following prompt in the task input:  
    ```
    Create a new field, "TravelNotes," and extend the Fiori app by adding a custom section to the travel object page.
-   This custom section should include a "RichTextEditor" building block to edit travel notes.
+   This custom section should include a "RichTextEditor" with metadata building block to edit travel notes.
    Use fiori mcp.
    ```
 3. Press `Enter` to start the task.
