@@ -7,7 +7,7 @@ Sl no | Troubleshooting Guide
  2 | [MCP server connection failure](#2-mcp-server-connection-failure)
  3 | [CDS Compile error](#3-cds-compilation-error) 
  4 | [How to reset and start from scratch](#4-how-to-reset-and-start-from-scratch)
- 5 | [Model Claude-4 is Not Responding](#5-model-anthropic-claude-4-sonnet-is-not-responding)
+ 5 | [Model Claude-4.5 is Not Responding](#5-model-anthropic-claude-45-sonnet-is-not-responding)
  6 | [VS Code Terminal Timeout Issues](#6-vscode-terminal-timeout-issues)
  7 | [Cline Panel is Not Visible](#7-cline-panel-is-not-visible)
 
@@ -70,12 +70,12 @@ Sl no | Troubleshooting Guide
 
 ---
 
-### 5. Model `anthropic-claude-4-sonnet` is Not Responding
+### 5. Model `anthropic-claude-4.5-sonnet` is Not Responding
 
    ![model error](./images/model-error.png)
 
-   - If the Claude 4 model is unresponsive or not generating results and throws above error. Switch model to the `anthropic-claude-3.5-sonnet` model in the Cline panel.
-   - To do this, open the Cline panel, select **Model**, and choose `anthropic-claude-3.5-sonnet`.
+   - If the Claude 4.5 model is unresponsive or not generating results and throws above error. Switch model to the `anthropic-claude-4.0-sonnet` model in the Cline panel.
+   - To do this, open the Cline panel, select **Model**, and choose `anthropic-claude-4.0-sonnet`.
    - Retry your task.
 
    - If the issue still exists, then you can close the current Cline task.

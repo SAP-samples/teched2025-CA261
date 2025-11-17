@@ -72,11 +72,7 @@
    - Before saving the generated data model to your project, Cline will ask you to review and confirm the content. Click **Save** to proceed. 
 
    > [!Note]
-   > Enable `Edit` to auto-approve future save requests.
-
-    ![edit file setting](./images/edit-file-setting.png)
-
-    In the latest version of Cline, the Edit option has been moved to the Auto-approve actions section. Activate both `Edit project files` and `Edit all files` to auto-approve future save requests.
+   > Activate both `Edit project files` and `Edit all files` to auto-approve future save requests.
 
     ![edit file autoapprove](./images/edit-file-autoapprove.png)
 

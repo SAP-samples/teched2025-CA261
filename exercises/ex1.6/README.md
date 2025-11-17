@@ -32,9 +32,9 @@
 
    <img src="./images/cline-welcome.png" alt="Cline Welcome" width="50%"/>
 
-2. On the welcome screen, click **Use your own API key**.
+2. On the welcome screen, select **Bring my own API key** --> Continue.
 
-   <img src="./images/cline-api-provider.png" alt="Cline API Provider" width="50%"/>
+   <img src="./images/cline-api-provider.png" alt="Cline API Provider" width="70%"/>
 
 3. **Enter API Configuration**
    - Set **API Provider** to `SAP AI Core`.
@@ -59,17 +59,14 @@
        ```
        default
        ```
-   - Click on **Let's go!** button.
 
 These credentials are stored locally and only used to make API requests from the extension.
 
 <img src="./images/cline-api-configuration.png" alt="Cline Settings" width="50%"/>
 
 4. **Select AI Model**
-   - In the Cline panel, click the **settings (⚙️) in the top-right**.
-   - select **Model** `anthropic-claude-4-sonnet` and check Orchestration Mode.
-
-<img src="./images/claude-model.png" alt="claude model" width="50%"/>
+   - Check Orchestration Mode.
+   - select **Model** `anthropic-claude-4.5-sonnet`.
 
 5. **Collapse Mcp responses**
 
@@ -112,7 +109,7 @@ These credentials are stored locally and only used to make API requests from the
    Execute
 
    ```bash
-   npm install -g @sap-ux/fiori-mcp-server@0.2.5
+   npm install -g @sap-ux/fiori-mcp-server@0.4.1
    ```
 
    - Install the **CAP MCP Server**:
@@ -156,7 +153,7 @@ These credentials are stored locally and only used to make API requests from the
            "type": "stdio",
            "timeout": 600,
            "command": "cmd",
-           "args": ["/c", "npx", "-y", "@sap-ux/fiori-mcp-server@0.2.5"]
+           "args": ["/c", "npx", "-y", "@sap-ux/fiori-mcp-server@0.4.1"]
          },
          "cds-mcp": {
            "command": "cmd",
