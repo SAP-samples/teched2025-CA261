@@ -188,7 +188,7 @@ These credentials are stored locally and only used to make API requests from the
 
 6. Enable Auto-Approval for MCP Tools
    - Expand each MCP server (fiori-mcp, cds-mcp, and figma-mcp)
-   - Check the `Auto approve all tools` option for each server
+   - Select the `Auto approve all tools` option for each server
    - This will allow automatic execution without manual confirmation
 
    <img src="./images/autoapprove-tools.png" alt="reload vscode" width="50%"/>
