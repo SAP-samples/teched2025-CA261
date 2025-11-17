@@ -14,7 +14,7 @@ You will gain comprehensive knowledge of AI assisted full-stack development, and
 
 ## Using AI during App Development
 
-We are using Cline as AI client within VSCode and Anthropic claude-4-sonnet LLM (Large Language Model) throughout the exercises. When developing SAP Fiori applications with LLMs, you may encounter situations where a prompt is not executed as intended, or technical errors occur when calling MCP server tools. Knowing how to approach these issues systematically can save time and prevent disruption. Cline and the choosen LLM are powerful assistants for problem resolution.
+We are using Cline as AI client within VSCode and Anthropic claude-4.5-sonnet LLM (Large Language Model) throughout the exercises. When developing SAP Fiori applications with LLMs, you may encounter situations where a prompt is not executed as intended, or technical errors occur when calling MCP server tools. Knowing how to approach these issues systematically can save time and prevent disruption. Cline and the choosen LLM are powerful assistants for problem resolution.
 
 ### General steps in case of issues:
 
