@@ -7,9 +7,10 @@ Sl no | Troubleshooting Guide
  2 | [MCP server connection failure](#2-mcp-server-connection-failure)
  3 | [CDS Compile error](#3-cds-compilation-error) 
  4 | [How to reset and start from scratch](#4-how-to-reset-and-start-from-scratch)
- 5 | [Model Claude-4.5 is Not Responding](#5-model-anthropic-claude-45-sonnet-is-not-responding)
+ 5 | [Model Claude-4.5 is Not Responding - Invalid API response](#5-model-anthropic-claude-45-sonnet-is-not-responding)
  6 | [VS Code Terminal Timeout Issues](#6-vscode-terminal-timeout-issues)
  7 | [Cline Panel is Not Visible](#7-cline-panel-is-not-visible)
+ 8 | [Hard Reload Browser](#8-hard-reload-browser)
 
 
 ---
@@ -74,15 +75,13 @@ Sl no | Troubleshooting Guide
 
    ![model error](./images/model-error.png)
 
-   - If the Claude 4.5 model is unresponsive or not generating results and throws above error. Switch model to the `anthropic-claude-4.0-sonnet` model in the Cline panel.
-   - To do this, open the Cline panel, select **Model**, and choose `anthropic-claude-4.0-sonnet`.
+   - If the Claude 4.5 model throws Invalid API response error. Change model to the `anthropic-claude-4.0-sonnet`.
    - Retry your task.
+   - If the issue still exists, try with model `anthropic-claude-3.7-sonnet` or  `anthropic-claude-3.5-sonnet`.
 
-   - If the issue still exists, then you can close the current Cline task.
+   - If the issue still exists, then you can close the current Cline task and change model to `gemini-2.5-pro`.
 
    ![close task](./images/close-task.png)
-
-   - Start a new task and re-enter the prompt from excercise to continue.
 
 ---
 
@@ -112,6 +111,19 @@ Sl no | Troubleshooting Guide
   - The Cline panel will appear in the sidebar.
 
   ![command palette](./images/command-palette-cline.png)
+
+---
+### 8. Hard Reload Browser
+
+- If the application is not loading correctly or changes are not reflected in the browser preview:
+  
+  - Open Developer Tools by pressing `F12`
+  - Long press the browser refresh button for 2-3 seconds until a dropdown menu appears
+  - Select "Empty Cache and Hard Reload" from the dropdown menu
+
+  ![hard reload browser](./images/hard-reload-browser.png)
+
+  This clears the browser cache and forces a complete reload of the page, ensuring all changes are properly displayed.
 
 ---
 

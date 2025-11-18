@@ -1,6 +1,6 @@
 ## Configure filter travel status as valuehelp and display it as dropdown
 
-1. In the Cline panel, choose **Plan Mode**.
+1. Close previous task and start new task in **Plan Mode**
 2. Copy and paste the following prompt into the task input:  
    ```
    Configure filter "travel status" as valuehelp and display it as dropdown showing status code and description.

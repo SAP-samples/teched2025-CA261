@@ -5,7 +5,7 @@
 Continue to next excercise.
 ----
 
-1. In the Cline panel, choose **Plan Mode**.
+1. Close previous task and start new task in **Plan Mode**.
 2. Copy and paste the following prompt into the task input:  
    ```
    Apply dynamic criticality to travel status column and make it visible in smaller screens.

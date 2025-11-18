@@ -12,16 +12,20 @@
 4. If prompted by User Account Control, click **Yes** to allow.
 
 5. From the top menu, click on **File > Open Folder...**
-
-6. In the dialog window, navigate to your **C:/** directory.
-
+   - In the File explorer window, navigate to your **C:/** directory.
    - Create a new folder named `SAPDevelop`.
-   - Inside `SAPDevelop`, create another folder called `TechedCA261` and select it.
+   - Inside `SAPDevelop`, create another new folder called `TechedCA261`.
    - Your folder structure should be: `C:/SAPDevelop/TechedCA261`
+   - Select Folder `TechedCA261`.
 
-7. `TechedCA261` folder is now opened in VS Code Explorer.
+6. `TechedCA261` folder is now opened in VS Code Explorer.
 
-<img src="./images/workspace.png" alt="workspace" width="50%"/>
+   <img src="./images/workspace.png" alt="workspace" width="50%"/>
+
+7. Close Welcome Page
+
+   <img src="./images/vscode-welcome.png" alt="vscode admin"/>
+
 
 ## Configure Cline
 
@@ -191,14 +195,14 @@ These credentials are stored locally and only used to make API requests from the
    - Select the `Auto approve all tools` option for each server
    - This will allow automatic execution without manual confirmation
 
-   <img src="./images/autoapprove-tools.png" alt="reload vscode" width="50%"/>
+   <img src="./images/autoapprove-tools.png" alt="reload vscode"/>
 
 6. Click on Done
 
 > [!NOTE]
-> Dismiss any notification popups from Cline and VS Code to ensure a clean workspace. This includes extension recommendations, update notifications, and setup prompts.
+> Dismiss/Close any notification popups from Cline and VS Code to ensure a clean workspace. This includes extension recommendations, update notifications, and setup prompts.
 
-   for example:
+   Examples of notifications to dismiss/close:
 
    <img src="./images/cline-notification.png" alt="reload vscode" width="40%"/><img src="./images/vscode-notification.png" alt="reload vscode" width="40%"/>
 

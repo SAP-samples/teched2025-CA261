@@ -23,7 +23,7 @@
 4. Press `Enter` to execute the task.
 
 5. Cline prepares an **Implementation Plan** using the AI model and MCP servers.
-   - During preparation, Cline may request approval to use MCP servers.
+   - During preparation, **Cline may request** approval to use MCP servers.
    - Click **Approve**.
 
    ![cds mcp approval](./images/cds-mcp-approve-req.png)
@@ -32,16 +32,16 @@
 
     ![autoapprove task](./images/autoapprove-task.png)
 
-    **Issue --> Cline remains pending**
-    - If the status in Cline remains pending and commands (such as `npm install`) are not executed in the VS Code terminal, toggle between **Act** and **Plan** mode, then click `Resume Task`.
+    **If you face terminal issue as shown below**
+    - Cline remains pending and commands (such as `npm install`) are not executed in the VS Code terminal.
+    
+    Solution: Toggle between **Act** and **Plan** mode, then click `Resume Task`.
 
      ![terminal](./images/terminal-pending.png)
 
      Solution:
    
      ![resume task](./images/task-resume.png)
-
-**Note:**
 
 - Cline may ask additional questions to prepare the plan. Enter the following information only if cline asks for it:
     1. Would you like to specify a project name? `travel-management`
@@ -63,7 +63,7 @@
     **Monitor the execution process and manually approve Cline requests whenever prompted to proceed**
     ---
 
-   - Automatically runs the command to initialize your CAP project:
+   - Cline runs the command automatically to initialize your CAP project:
      ```
      cds init travel-management
      ```
@@ -71,19 +71,12 @@
 
    - Before saving the generated data model to your project, Cline will ask you to review and confirm the content. Click **Save** to proceed. 
 
-   > [!Note]
-   > Activate both `Edit project files` and `Edit all files` to auto-approve future save requests.
+    > [!NOTE]
+    > To Auto-approve future save requests -> Activate both `Edit project files` and `Edit all files` as shown below.
 
     ![edit file autoapprove](./images/edit-file-autoapprove.png)
 
-   - Cline then creates sample data files (in .csv format) for your project automatically.
-
-   - To generate the Fiori app, Cline requests permission to use specific fiori-mcp server functionalities:
-     - Approve the `get-functionality-details` request.
-     - Approve the `execute-functionality-details` request.
-
-    ![fiori mcp get functionality](./images/fiori-mcp-get-functionality.png)
-    ![fiori mcp execute functionality](./images/fiori-mcp-execute-functionality.png)
+   - Cline creates sample data files automatically (in .csv format) for your project.
 
    - After the app is generated successfully, Cline installs all required dependencies for your project:
 
