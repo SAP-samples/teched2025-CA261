@@ -29,20 +29,34 @@
 
 ## Troubleshoot
 
-1. No data in rich text editor, Execute prompt `Add mock data for travel notes`
+1. Custom section not visible. Execute prompt 
+      ```
+      Travel notes with RichTextEditor not visible
+      ```
 
-2. Travel notes is not a Rich Text Editor.
-Execute prompt `use "RichTextEditorWithMetadata"`. Verify `RichTextEditorWithMetadata` code in the xml fragment.
+2. No data in custom section. Execute prompt 
+      ```
+      Add mock data for travel notes
+      ```
 
-![notrichtext](./images/not-rich-text.png)
+3. Travel notes is not a Rich Text Editor. Execute below prompt and verify `RichTextEditorWithMetadata` code in the xml fragment
+      ```
+      use "RichTextEditorWithMetadata"
+      ```
 
-for example
-```
-      <macros:RichTextEditorWithMetadata
-            id="travelNotesEditor"
-            metaPath="TravelNotes" />
-```
+      ![notrichtext](./images/not-rich-text.png)
 
-3. Cannot edit travel notes RichTextEditor building block. Execute prompt `Travel notes with RichTextEditor is not editable`
+      for example
+      ```
+            <macros:RichTextEditorWithMetadata
+                  id="travelNotesEditor"
+                  metaPath="TravelNotes" />
+      ```
+
+4. Cannot edit travel notes RichTextEditor building block. 
+      Execute prompt 
+      ```
+      Travel notes with RichTextEditor is not editable
+      ```
 
 Continue to - [Exercise 4 - Create booking object page based on figma design](../ex4/README.md)
