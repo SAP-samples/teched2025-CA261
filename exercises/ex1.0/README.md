@@ -5,7 +5,7 @@
 > [!NOTE]
 > If prompted to update Figma Desktop, click `Install now` to proceed with the latest version.
 
-2. Open the [Login File](../../Login/) and pick your assigned login data, enter the data in the browser window to complete your login to Figma
+2. Open the [Login File](../../figmaLogin.txt) and pick your assigned login data, enter the data in the browser window to complete your login to Figma
 3. Click on **Open the desktop app** in the browser window, confirm the popup
 
 ## Execute the following steps to open your design
