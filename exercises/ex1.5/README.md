@@ -5,7 +5,11 @@
 1. **Activate Developer Mode and Enable MCP Server**
    - Click on `Screen 1 - List Report`
    - Toggle to `Dev Mode` in Figma Desktop
-   - Click the `Enable desktop MCP server` option
+   - Click the `Set up Figma MCP` or `Enable desktop MCP server`
+
+   ![Figma](./images/enablemcpserver2.png)
+
+   OR
 
    ![Figma](./images/enablemcpserver.png)
 

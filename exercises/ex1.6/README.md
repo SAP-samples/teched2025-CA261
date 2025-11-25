@@ -26,7 +26,6 @@
 
    <img src="./images/vscode-welcome.png" alt="vscode admin"/>
 
-
 ## Configure Cline
 
 1. **Install Cline extension (version 3.37.1)**
@@ -37,7 +36,14 @@
       code --install-extension saoudrizwan.claude-dev@3.37.1
    ```
 
-2. **Open the Cline Panel**
+2. Reload Vs code
+
+   - On Vscode, go to menu bar and click **View → Command Palette…**
+   - Type `Reload Window` and select `Developer: Reload Window`.
+
+   <img src="./images/vscode-reload.png" alt="reload vscode" width="50%"/>
+
+3. **Open the Cline Panel**
 
    - In VS Code, click the **Cline icon** from the left sidebar (Activity Bar).
    - The Cline welcome screen will appear.
@@ -48,24 +54,24 @@
 
    <img src="./images/cline-api-provider.png" alt="Cline API Provider" width="70%"/>
 
-3. **Enter API Configuration**
+4. **Enter API Configuration**
    - Set **API Provider** to `SAP AI Core`.
    - Enter the following authentication details:
      - AI Core Client ID:
        ```
-       (TBD)
+       sb-d62d59c6-496c-4fea-a721-f265e0f43eb5!b96301|xsuaa_std!b77089
        ```
      - AI Core Client Secret:
        ```
-       (TBD)
+       3325f67d-8f9f-4cc0-9f0b-8fea927cd8c1$TzZftSXvOyf6ArtzIuspevt2P0EGiVuF1pfJPtFiTvY=
        ```
      - AI Core Base URL:
        ```
-       (TBD)
+       https://api.ai.internalprod.eu-central-1.aws.ml.hana.ondemand.com
        ```
      - AI Core Auth URL:
        ```
-       (TBD)
+       https://fiori-tools-ai.authentication.sap.hana.ondemand.com
        ```
      - AI Core Resource Group:
        ```
@@ -74,30 +80,38 @@
 
 These credentials are stored locally and only used to make API requests from the extension.
 
+Backup Key:
+
+     - AI Core Client ID: sb-41ee5c79-068c-46ec-917b-ecc911911a10!b96139|xsuaa_std!b77089
+     - AI Core Client Secret: 577defae-4516-4644-9af4-a397d5bc503c$TimWR9mM4q8ty11jsBOa0RSFgi0vqcCgujVnxktyZT0=
+     - AI Core Base URL: https://api.ai.internalprod.eu-central-1.aws.ml.hana.ondemand.com
+     - AI Core Auth URL: https://fiori-ai.authentication.sap.hana.ondemand.com
+     - AI Core Resource Group: default
+
 <img src="./images/cline-api-configuration.png" alt="Cline Settings" width="50%"/>
 
-4. **Select AI Model**
+5. **Select AI Model**
    - Check Orchestration Mode.
    - select **Model** `anthropic-claude-4.5-sonnet`.
 
-5. **Collapse Mcp responses**
+6. **Collapse Mcp responses**
 
 <img src="./images/collapse-mcp-response.png" alt="collapse mcp response" width="50%"/>
 
-6. **Disable Browser Tool Usage**
+7. **Disable Browser Tool Usage**
    - In the **Cline Settings**, Click on the **Browser** section.
    - Check the option **Disable browser tool usage**.
 
      <img src="./images/cline-disable-browser.png" alt="Cline browser" width="50%"/>
 
-7. **Configure Terminal settings on Cline**
+8. **Configure Terminal settings on Cline**
    - In the **Cline Settings**, Click on the **Terminal** section.
    - Select **Git Bash** as your default terminal profile.
    - Click on `Done`
 
    <img src="./images/cline-terminal.png" alt="cline terminal" width="50%"/>
    
-8. **Configure Terminal settings on Vscode**
+9. **Configure Terminal settings on Vscode**
    - Go to the top menu and select **Terminal > New Terminal**.
    - In the terminal panel, click the dropdown arrow next to the plus (+) icon.
    - Select **Select Default Profile** from the dropdown menu.

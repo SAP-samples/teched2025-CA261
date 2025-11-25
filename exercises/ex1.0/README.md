@@ -1,6 +1,10 @@
 ## Open the Figma client and login to it
 
 1. Open Figma desktop, which will ask you to login with the browser, click on the link
+
+> [!NOTE]
+> If prompted to update Figma Desktop, click `Install now` to proceed with the latest version.
+
 2. Open the [Login File](../../Login/) and pick your assigned login data, enter the data in the browser window to complete your login to Figma
 3. Click on **Open the desktop app** in the browser window, confirm the popup
 
