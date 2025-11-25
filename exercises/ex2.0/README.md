@@ -71,8 +71,8 @@
 
    - Before saving the generated data model to your project, Cline will ask you to review and confirm the content. Click **Save** to proceed. 
 
-    > [!NOTE]
-    > To Auto-approve future save requests -> Activate both `Edit project files` and `Edit all files` as shown below.
+> [!NOTE]
+> To Auto-approve future save requests -> Activate both `Edit project files` and `Edit all files` as shown below.
 
     ![edit file autoapprove](./images/edit-file-autoapprove.png)
 
@@ -87,6 +87,12 @@
 ---
 
 9. After completing all the planned steps, the application should automatically open in your browser, displaying a travel list report application that matches the Figma design.
+
+> [!NOTE]
+> Windows security may ask  'Do you want to allow public and private network to access this app'. Click on `Allow`
+
+<img src="./images/nodejsruntime.jpeg" alt="node js runtime" width="50%"/>
+
 
 ![application preview](./images/application-preview.png)
 
