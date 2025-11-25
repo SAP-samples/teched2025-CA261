@@ -114,8 +114,8 @@ Backup Key:
    <img src="./images/cline-terminal.png" alt="cline terminal" width="50%"/>
 
 
-   > [!NOTE]
-   > Dismiss/Close any notification popups from Cline and VS Code to ensure a clean workspace. This includes extension recommendations, update notifications, and setup prompts.
+> [!NOTE]
+> Dismiss/Close any notification popups from Cline and VS Code to ensure a clean workspace. This includes extension recommendations, update notifications, and setup prompts.
 
    Examples of notifications to dismiss/close:
 
