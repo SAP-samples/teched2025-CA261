@@ -95,6 +95,8 @@ Backup Key:
    - select **Model** `anthropic-claude-4.5-sonnet`.
 
 6. **Collapse Mcp responses**
+   - In the **Cline Settings**, Click on the **Feature Settings** section.
+   - Check the option `Collapse MCP Responses`
 
 <img src="./images/collapse-mcp-response.png" alt="collapse mcp response" width="50%"/>
 
@@ -110,6 +112,14 @@ Backup Key:
    - Click on `Done`
 
    <img src="./images/cline-terminal.png" alt="cline terminal" width="50%"/>
+
+
+   > [!NOTE]
+   > Dismiss/Close any notification popups from Cline and VS Code to ensure a clean workspace. This includes extension recommendations, update notifications, and setup prompts.
+
+   Examples of notifications to dismiss/close:
+
+   <img src="./images/cline-notification.png" alt="reload vscode" width="40%"/><img src="./images/vscode-notification.png" alt="reload vscode" width="40%"/>
    
 9. **Configure Terminal settings on Vscode**
    - Go to the top menu and select **Terminal > New Terminal**.
@@ -212,13 +222,6 @@ Backup Key:
    <img src="./images/autoapprove-tools.png" alt="reload vscode"/>
 
 6. Click on Done
-
-> [!NOTE]
-> Dismiss/Close any notification popups from Cline and VS Code to ensure a clean workspace. This includes extension recommendations, update notifications, and setup prompts.
-
-   Examples of notifications to dismiss/close:
-
-   <img src="./images/cline-notification.png" alt="reload vscode" width="40%"/><img src="./images/vscode-notification.png" alt="reload vscode" width="40%"/>
 
 ## Configure Rules for MCP Servers
 
