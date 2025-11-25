@@ -59,19 +59,19 @@
    - Enter the following authentication details:
      - AI Core Client ID:
        ```
-       sb-d62d59c6-496c-4fea-a721-f265e0f43eb5!b96301|xsuaa_std!b77089
+       TBD
        ```
      - AI Core Client Secret:
        ```
-       3325f67d-8f9f-4cc0-9f0b-8fea927cd8c1$TzZftSXvOyf6ArtzIuspevt2P0EGiVuF1pfJPtFiTvY=
+       TBD
        ```
      - AI Core Base URL:
        ```
-       https://api.ai.internalprod.eu-central-1.aws.ml.hana.ondemand.com
+       TBD
        ```
      - AI Core Auth URL:
        ```
-       https://fiori-tools-ai.authentication.sap.hana.ondemand.com
+       TBD
        ```
      - AI Core Resource Group:
        ```
@@ -79,14 +79,6 @@
        ```
 
 These credentials are stored locally and only used to make API requests from the extension.
-
-Backup Key:
-
-     - AI Core Client ID: sb-41ee5c79-068c-46ec-917b-ecc911911a10!b96139|xsuaa_std!b77089
-     - AI Core Client Secret: 577defae-4516-4644-9af4-a397d5bc503c$TimWR9mM4q8ty11jsBOa0RSFgi0vqcCgujVnxktyZT0=
-     - AI Core Base URL: https://api.ai.internalprod.eu-central-1.aws.ml.hana.ondemand.com
-     - AI Core Auth URL: https://fiori-ai.authentication.sap.hana.ondemand.com
-     - AI Core Resource Group: default
 
 <img src="./images/cline-api-configuration.png" alt="Cline Settings" width="50%"/>
 
