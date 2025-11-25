@@ -131,6 +131,9 @@ Backup Key:
 
    ![vscode terminal](./images/vscode-terminal.png)
 
+10. **Configure Auto Save on Vscode**
+   - Go to the top menu and select **File > Auto Save**.
+
 ## Install and Configure MCP Servers
 
 1. **Install MCP Servers and SAP Fiori Generator**
