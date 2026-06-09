@@ -8,7 +8,7 @@ This repository contains the material for the SAP TechEd 2025 session [CA261 | C
 
 ## Overview
 
-In this hands-on tutorial you will work through a set of exercises that highlight the benefits and capabilities of the **SAP Design System**, the **Figma** design tool, and the **MCP servers developed by SAP and Figma** to create and modify SAP Fiori applications with the help of AI coding assistants. 
+In this hands-on tutorial you will work through a set of exercises that highlight the benefits and capabilities of the **SAP Design System**, the **Figma** design tool, and the **MCP servers developed by SAP and Figma** to create and modify SAP Fiori applications with the help of AI coding assistants.  
 
 You will gain comprehensive knowledge of AI assisted full-stack development, and learn how to use Figma and the SAP Design System to kickstart your SAP Fiori elements application development.
 
